@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">SDPCryptogram</string>
+    <!-- Strings related to login -->
+    <string name="username">Username</string>
+    <string name="title_activity_create_cryptogram">Create Cryptogram</string>
+    <string name="title_activity_cryptogram_library">Cryptogram Library</string>
+    <string name="title_activity_view_completed_cryptograms">Completed Cryptograms</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password_registration">Password</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_submit">Submit</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="login_error_invalid_credentials">Invalid username or password!</string>
+    <string name="login_error_username_required">Username is required!</string>
+    <string name="login_error_password_required">Password is required!</string>
+
+    <!-- Button Labels -->
+    <string name="create_cryptogram">Create Cryptogram</string>
+    <string name="solve_cryptogram">Solve Cryptogram</string>
+    <string name="view_cryptogram_stats">View Cryptogram Statistics</string>
+    <string name="view_completed_cryptograms">View Completed Cryptograms</string>
+    <string name="logout">Logout</string>
+
+    <!-- Register activity -->
+    <string name="title_activity_register">Create Player</string>
+    <string name="register_email_invalid">E-mail address is invalid!</string>
+    <string name="register_email_required">E-mail address is required!</string>
+    <string name="register_first_name_required">First name is required!</string>
+    <string name="register_last_name_required">Last name is required!</string>
+    <string name="register_password_required">Password is required!</string>
+    <string name="register_password_too_short">Password is too short!</string>
+    <string name="register_username_required">Username is required!</string>
+    <string name="register_username_taken">Username is not available!</string>
+
+    <!-- Create Cryptogram activity -->
+    <string name="create_cryptogram_cipher_incomplete">You must complete the cipher!</string>
+    <string name="create_cryptogram_created_successfully">Cryptogram created!</string>
+    <string name="create_cryptogram_name_label">Puzzle Name</string>
+    <string name="create_cryptogram_solution_label">Solution</string>
+    <string name="create_cryptogram_max_attempts_label">Max Attempts</string>
+    <string name="create_cryptogram_view_encoded_solution">View Encoded Solution</string>
+    <string name="create_cryptogram_continue">Continue</string>
+    <string name="create_cryptogram_error_puzzle_name_missing">Puzzle name must be supplied!</string>
+    <string name="create_cryptogram_error_puzzle_name_not_unique">Puzzle name must be unique!</string>
+    <string name="create_cryptogram_error_solution_missing">Solution must be supplied!</string>
+    <string name="create_cryptogram_error_max_attempts_below_zero">Max attempts must be a positive number!</string>
+    <string name="create_cryptogram_error_max_attempts_missing">Max attempts must be supplied!</string>
+
+    <!-- Cryptogram Library activity -->
+    <string name="title_activity_cryptogram_library_stat">SDPCryptogram Library</string>
+    <string name="cryptogram_library_date_created_label">Date Created:</string>
+    <string name="cryptogram_library_instantiate_new_library">Welcome to SDPCryptogram!\nInitializing cryptogram library&#8230;</string>
+    <string name="cryptogram_library_total_solves_label">Total Solves:</string>
+    <string name="cryptogram_library_number_attempts_label">Your Attempts:</string>
+    <string name="cryptogram_library_play_button">Play Cryptogram</string>
+
+    <!-- Cryptogram Statistics activity -->
+    <string name="title_activity_cryptogram_stat">Cryptogram Statistics</string>
+    <string name="cryptogram_statistics_first_player_label">First Players to Solve</string>
+    <string name="cryptogram_statistics_total_solves">Total Solves: %1$d</string>
+
+    <!-- Play Cryptogram activity -->
+    <string name="title_activity_play_cryptogram">Play Cryptogram</string>
+    <string name="play_cryptogram_attempts">Attempt %1$d / %2$d</string>
+    <string name="play_cryptogram_cipher_incomplete">You must complete the cipher!</string>
+    <string name="play_cryptogram_correct_attempt">Your guess was correct!  Good job!</string>
+    <string name="play_cryptogram_incorrect_attempt">Your guess was not correct!</string>
+    <string name="play_cryptogram_no_remaining_attempts">No attempts remaining!\nReturning you to the library&#8230;</string>
+    <string name="play_cryptogram_submit_guess">Submit Guess</string>
+</resources>
